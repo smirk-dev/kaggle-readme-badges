@@ -1,0 +1,5 @@
+node_modules/
+.vercel/
+out.svg
+preview.html
+.DS_Store

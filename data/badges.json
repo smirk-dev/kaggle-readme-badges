@@ -1,0 +1,176 @@
+{
+  "username": "smirkxd",
+  "updated": "2026-09-12",
+  "badges": [
+    {
+      "name": "1 Year on Kaggle",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F163e0f27360ae958da99dde2a68f7e00%2FBadge-46.svg?generation=1727468408101916&alt=media",
+      "slug": "1-year-on-kaggle"
+    },
+    {
+      "name": "Competitor",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fb05e17f63f2eead904a1f04d05bb51a6%2FBadge.svg?generation=1727458564383731&alt=media",
+      "slug": "competitor"
+    },
+    {
+      "name": "Getting Started Competitor",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F9c37cceb9f493bb678dd909e988b1456%2FBadge-1.svg?generation=1727462477436270&alt=media",
+      "slug": "getting-started-competitor"
+    },
+    {
+      "name": "Playground Competitor",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F45be693e46c3d59a48e65f903aad246b%2FBadge-5.svg?generation=1727462562515977&alt=media",
+      "slug": "playground-competitor"
+    },
+    {
+      "name": "March Mania Competitor",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F41ff6ec1c3a3ada0ae1595df7e1a18fd%2FBadge-7.svg?generation=1727462713945054&alt=media",
+      "slug": "march-mania-competitor"
+    },
+    {
+      "name": "Python Coder",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&alt=media",
+      "slug": "python-coder"
+    },
+    {
+      "name": "R Coder",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fc3120a3eaa99efb354dd8f13fa488ab3%2FBadge-27.svg?generation=1727468079059480&alt=media",
+      "slug": "r-coder"
+    },
+    {
+      "name": "R Markdown Coder",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fdfb6c5a521462324e8587dc077c950cb%2FBadge-28.svg?generation=1727468098225338&alt=media",
+      "slug": "r-markdown-coder"
+    },
+    {
+      "name": "Code Uploader",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F1e4546d427340e1495b9ee02261e2dc6%2FBadge-34.svg?generation=1727468126171650&alt=media",
+      "slug": "code-uploader"
+    },
+    {
+      "name": "API Notebook Creator",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4320b13590f043b8c58421eb25f04235%2FBadge-33.svg?generation=1727468143701354&alt=media",
+      "slug": "api-notebook-creator"
+    },
+    {
+      "name": "Github Coder",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Ff219fc42b716ca24a2476517fe951295%2FBadge-32.svg?generation=1727468159669543&alt=media",
+      "slug": "github-coder"
+    },
+    {
+      "name": "Colab Coder",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F42167cf9c1c0a74d4e1c7503c010c82d%2FBadge-31.svg?generation=1727468175250681&alt=media",
+      "slug": "colab-coder"
+    },
+    {
+      "name": "Code Tagger",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F453e2017576218001d5bbff451800de8%2FBadge-36.svg?generation=1727468194325199&alt=media",
+      "slug": "code-tagger"
+    },
+    {
+      "name": "Code Forker",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F7567026dd0c594f1193b49a98a976056%2FBadge-35.svg?generation=1727468213893504&alt=media",
+      "slug": "code-forker"
+    },
+    {
+      "name": "Notebook Modeler",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F2df508502fba7fc8937f3847e46b8ec4%2FBadge-29.svg?generation=1727468233931525&alt=media",
+      "slug": "notebook-modeler"
+    },
+    {
+      "name": "Utility Scripter",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbbea4ea1fc82b501878a17a12611d63a%2FBadge-30.svg?generation=1727468250800009&alt=media",
+      "slug": "utility-scripter"
+    },
+    {
+      "name": "Dataset Creator",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F28e0e70842ce6972f4d68f5b6ecd549a%2FBadge-12.svg?generation=1727462988946700&alt=media",
+      "slug": "dataset-creator"
+    },
+    {
+      "name": "Dataset Pipeline Creator",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F6e606810b30ccf3326b799d816978216%2FBadge-13.svg?generation=1727463097079415&alt=media",
+      "slug": "dataset-pipeline-creator"
+    },
+    {
+      "name": "Linked Dataset Creator",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fd8324513d70986bb68872d2036337930%2FBadge-14.svg?generation=1727463065140121&alt=media",
+      "slug": "linked-dataset-creator"
+    },
+    {
+      "name": "API Dataset Creator",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4bcf6474cdf3503864419523d22b6019%2FBadge-15.svg?generation=1727463114221819&alt=media",
+      "slug": "api-dataset-creator"
+    },
+    {
+      "name": "Dataset Tagger",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F5d31f6794c65cc3ed7e29768cd541a53%2FBadge-17.svg?generation=1727463142252997&alt=media",
+      "slug": "dataset-tagger"
+    },
+    {
+      "name": "Model Creator",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F9ca07715376e5949f99c842605c3ee60%2FBadge-18.svg?generation=1727467872971674&alt=media",
+      "slug": "model-creator"
+    },
+    {
+      "name": "Model Variation Creator",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F86ae071ef80050dc0dea1ea2b9ee814c%2FBadge-21.svg?generation=1727467930982303&alt=media",
+      "slug": "model-variation-creator"
+    },
+    {
+      "name": "Linked Model Creator",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F525c42374b51a206c1974b65915b5fde%2FBadge-20.svg?generation=1727467942922370&alt=media",
+      "slug": "linked-model-creator"
+    },
+    {
+      "name": "Model Tagger",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Ff3f3a58a1ab767e19096cacff60b273b%2FBadge-24.svg?generation=1727468031629005&alt=media",
+      "slug": "model-tagger"
+    },
+    {
+      "name": "Kaggle Community Member",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F10489106%2F8235ef48b7e37d36d6e081d112f303de%2FBadge-62.svg?generation=1758039755687969&alt=media",
+      "slug": "kaggle-community-member"
+    },
+    {
+      "name": "Stylish",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F67d3960ab66dd17a3b6b1546ca8c3acb%2FBadge-40.svg?generation=1727468269875327&alt=media",
+      "slug": "stylish"
+    },
+    {
+      "name": "Collector",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbd815f5d633db594d07a22a6e3f1067e%2FBadge-43.svg?generation=1727468286042063&alt=media",
+      "slug": "collector"
+    },
+    {
+      "name": "Bookmarker",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fe06d05ebef3630403946b71cbdc11665%2FBadge-42.svg?generation=1727468309615075&alt=media",
+      "slug": "bookmarker"
+    },
+    {
+      "name": "Vampire",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F059c9b5e8bad980032971b42cb35cb10%2FBadge-44.svg?generation=1727468322667890&alt=media",
+      "slug": "vampire"
+    },
+    {
+      "name": "Agent of Discord",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F0b96fc543a2faf02467b3dcd5833feff%2FBadge-45.svg?generation=1727468334875991&alt=media",
+      "slug": "agent-of-discord"
+    },
+    {
+      "name": "Learner",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbac00bdcf5aa52c077bef4d95da882f3%2FBadge-37.svg?generation=1727468352009252&alt=media",
+      "slug": "learner"
+    },
+    {
+      "name": "5-Day AI Agents Intensive Course with Google",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F10489106%2Fef135f20e49c369cebff513ac3c96eed%2F5-Day_AI_Agents_Intensive_Badge.svg?generation=1763052133996110&alt=media",
+      "slug": "5-day-ai-agents-intensive-course-with-google"
+    },
+    {
+      "name": "7 Day Login Streak",
+      "iconUrl": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F6e139e7278fc9c33210e39baf918967f%2FBadge-53.svg?generation=1727468684057299&alt=media",
+      "slug": "7-day-login-streak"
+    }
+  ]
+}

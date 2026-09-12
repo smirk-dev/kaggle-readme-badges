@@ -1,0 +1,14 @@
+{
+  "name": "kaggle-readme-badges",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Serverless SVG card that renders your earned Kaggle badges, embeddable in a GitHub README like github-readme-stats.",
+  "scripts": {
+    "dev": "vercel dev",
+    "render:test": "node scripts/render-local.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
