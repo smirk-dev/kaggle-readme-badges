@@ -3,3 +3,5 @@ node_modules/
 out.svg
 preview.html
 .DS_Store
+
+.vercel
