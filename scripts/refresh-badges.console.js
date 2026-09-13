@@ -10,13 +10,11 @@
 // 5. Commit + push. Vercel redeploys automatically and the embedded SVG
 //    picks up the new badge set on next render.
 //
-// Why this instead of an automated scraper: Kaggle's badge data is only
-// present in the authenticated, client-hydrated page (a plain unauthenticated
-// HTTP GET to the profile URL returns an empty shell — verified 2026-09-12).
-// Automating that would mean storing a live Kaggle session/cookie somewhere
-// (CI secret, etc.) just to re-scrape an internal, undocumented endpoint.
-// Badges are earned a handful of times a year, so a 30-second manual paste
-// beats maintaining that.
+// This is the manual fallback — scripts/heartbeat.mjs automates the same
+// extraction on a schedule with no credentials needed (a fresh, cookie-less
+// headless browser can see the badge grid too; only a raw HTTP GET, with no
+// JS engine at all, gets the empty shell). Use this one for a quick one-off
+// check without waiting for the scheduled run.
 
 (function () {
   const imgs = Array.from(document.querySelectorAll("img")).filter((i) =>

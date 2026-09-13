@@ -6,9 +6,13 @@
   "description": "Serverless SVG card that renders your earned Kaggle badges, embeddable in a GitHub README like github-readme-stats.",
   "scripts": {
     "dev": "vercel dev",
-    "render:test": "node scripts/render-local.js"
+    "render:test": "node scripts/render-local.js",
+    "heartbeat": "node scripts/heartbeat.mjs"
   },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
   }
 }

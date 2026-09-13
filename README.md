@@ -8,9 +8,9 @@ section — embeddable in a GitHub README the same way
 
 Why this exists instead of a hand-downloaded screenshot: a static PNG goes
 stale the moment you earn a new badge, and re-cropping a screenshot every time
-is annoying. This regenerates the card from a small JSON manifest on every
-request (cached), so updating `data/badges.json` and pushing is the whole
-update flow.
+is annoying. This regenerates the card from a small JSON manifest
+(`data/badges.json`), and a scheduled heartbeat (`scripts/heartbeat.mjs`)
+keeps that manifest current on its own — see below.
 
 ## Embed it
 
@@ -33,32 +33,43 @@ Example: `?cols=10&bg=none&title=1`
 
 ## How the data gets here
 
-Kaggle doesn't expose badges through its public API, and a plain
-unauthenticated HTTP request to a profile page returns an empty shell — the
-badge grid only renders after the page hydrates with an authenticated (or
-real anonymous-session) client. Rather than storing a live Kaggle session
-somewhere to re-scrape that on a schedule, this repo just keeps a manifest
-(`data/badges.json`) that you refresh manually, in about 30 seconds, whenever
-you earn a new badge:
+Kaggle's profile page is a client-hydrated SPA — a plain HTTP request (curl,
+`fetch()`) only ever gets an empty ~6KB shell, no matter what headers or auth
+you send, because the badge grid is built by client-side JS after the page
+loads. But that hydration doesn't require being *logged in*: a real browser
+with **zero cookies** (same as any logged-out visitor) still renders the
+badges via Kaggle's own anonymous-session flow. Verified directly — a fresh
+Playwright context with no stored state, pointed at the public profile URL,
+sees all of them.
 
-1. Open `https://www.kaggle.com/<username>` (About tab) while logged in.
-2. Open DevTools Console, paste the contents of
-   `scripts/refresh-badges.console.js`, hit Enter.
-3. It downloads `kaggle-badges-manifest.json` with every badge's name and its
-   public icon URL. Drop that array into `data/badges.json`'s `"badges"`
-   field (update `"updated"` too).
-4. Commit + push — Vercel redeploys automatically.
+So `scripts/heartbeat.mjs` needs no credentials, no session, no login step:
+it launches a throwaway headless Chromium, loads `kaggle.com/<username>`,
+extracts the current badge grid, and diffs it against `data/badges.json`. If
+the badge set actually changed, it updates the manifest and pushes — Vercel
+redeploys automatically. If nothing changed, it's a silent no-op (logged to
+`heartbeat.log`).
 
-The per-badge icon URLs themselves (`googleapis.com/download/storage/...`)
-*are* public, unauthenticated GCS objects once you know them — it's only the
-name → URL mapping that requires an authenticated page load to discover.
+Run it on a schedule (a daily Windows Scheduled Task, cron, a GitHub Actions
+cron job — anything that can run `npm run heartbeat` periodically works,
+since it needs no secrets):
+
+```
+npm run heartbeat
+```
+
+A manual one-off refresh is also still there for a quick check without
+waiting for the schedule: `scripts/refresh-badges.console.js`, pasted into
+DevTools on the profile page (see the script's own header comment).
 
 ## Local dev
 
-No external dependencies — just Node's built-in `fetch`.
+The API itself (`api/kaggle-badges.js`) has zero external dependencies — just
+Node's built-in `fetch`. `scripts/heartbeat.mjs` is the only thing that needs
+`playwright` (for the headless browser), installed via `npm install`.
 
 ```
 npm run render:test   # renders data/badges.json -> out.svg, no Vercel needed
+npm run heartbeat     # one manual check-and-update run
 vercel dev            # full local API server at /api/kaggle-badges
 ```
 
